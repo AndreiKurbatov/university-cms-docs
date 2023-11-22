@@ -3,150 +3,67 @@
 
 <body> 
 	<h2>Entity description</h2>
-	<h3>CourseTime</h3>
+	<h3>Lesson</h3>
 	<ul>
-		<li>A <b>CourseTime</b> has
-			<ol>
-				<li>course course time </li> 
-				<li>course date</li> 
-				<li>course start time</li> 
-				<li>course end time </li> 
-			</ol>
-		</li>
-		<li><b>CourseTime</b> is used to create <b>'Courses schedule'</b></li>
-		<li>A student cannot change the timetable, only see it</li>
-		<li>A student can see only its own time table</li>
+		<li>A lesson is used to create a courses schedule</li>
+		<li>A lesson contains information about its student course, room and precise time</li>
+		<li>A student or a teacher cannot change the timetable, only see it</li>
+		<li>A student as a teacher can see only his own courses schedule</li>
+		<li>The courses schedule can be changed only by an administrator</li>
 	</ul>
+	<br>
+	<h3>Room</h3>
+	<ul>
+		<li>A room contains information about the room number and floor</li>
 	<br>
 	<h3>Course</h3> 
 	<ul>
-		<li>A <b>Course</b> has:
-			<ol>
-				<li>course id</li> 
-				<li>teacher id</li> 
-				<li>specialization</li> 
-				<li>course name</li> 
-				<li>credit hours</li> 
-				<li>course description</li> 
-				<li>course date </li> 
-				<li>start time</li> 
-				<li>end time</li> 
-				<li>class room</li> 
-			</ol>
-		</li>
 		<li>A student can attend only courses related to his specialization</li>
-		<li>Students attends from 10 to 15 Courses</li>
-		<li>There are 80 courses in total at the university</li>
-		<li>For a student to attend a course, it is not necessary for him to be in a group</li>
+		<li>Students attends from 4 to 7 Courses</li>
+		<li>There are 40 courses in total at the university:<br>
+		Computer Science (10 courses), Medicine (10 courses), Economics (10 courses) Art (10 courses)</li>
+		<li>For a student to attend a course, it is not necessary for him to be in a group with relevant specialization</li>
+		<li>An administrator can change students in a Course</li>
 	</ul>
 	<br>
 	<h3>Group</h3>  
 	<ul>
-		<li>A <b>Group</b> has:
-			<ol>
-				<li>group id</li> 
-				<li>group name</li> 
-				<li>specialization</li> 
-			</ol>
-		</li>
-		<li>Each group has a specialization: Computer Science (20 courses),<br>
-			Medicine (20 courses), Economics (20 courses) or Art (20 courses)</li>
+		<li>Each group has a specialization:<br>Computer Science (10 courses),
+			Medicine (10 courses), Economics (10 courses) or Art (10 courses)</li>
 		<li>A group contains from 15 to 30 students</li>
-		<li>There are 107 groups in total</li>
-		<li>The group name must consist of two uppercase<br>
-			Latin letters followed by a hyphen followed by two digits</li>
+		<li>There are 27 groups in total</li>
+		<li>The group name must consist of two uppercase Latin letters followed by a hyphen followed by two digits</li>
+		<li>An administrator can change students in a group</li>
 	</ul>
 	<br>
 	<h3>Student</h3> 
 	<ul>
-		<li>A <b>Student</b> has:
-			<ol>
-				<li>student id</li> 
-				<li>group id</li> 
-				<li>first name</li> 
-				<li>last name</li> 
-				<li>date of birth</li> 
-				<li>passport number</li> 
-				<li>scholarship amount</li> 
-				<li>currency name</li>
-				<li>telephone number</li>
-				<li>email address</li> 
-				<li>residence address</li>
-				<li>admission date</il> 
-				<li>specialization</li> 
-				<li>current semester</li> 
-				<li>person foto</il> 
-			</ol>
-		</li>
-		<li>For a student to attend a course, it is not necessary for him to be in a group</li>
+		<li>For a student to attend a course, it is not necessary for him to be in a group with relevant specialization</li>
 		<li>It is possible that there is a group without students or a student without group</li>
-		<li>There are 3200 students in total at the university</li>
-		<li>A student has a group and courses</li>
+		<li>There are 800 students in total at the university</li>
+		<li>A student has a group and courses with relevant specialization</li>
 		<li>A group contains from 15 to 30 students</li>
-		<li>Students attends from 10 to 15 Courses</li>
-		<li>There are 4 years of study. That is there are 8 semesters.<br>
-		The 1st year contains 800 students, the 2st year contains 800 students,<br>
-		the 3th year contains 800 students and the 4th year contains 800 students</li>
+		<li>Students attends from 4 to 7 courses</li>
 		<li>A student can see its courses</li>
 		<li>A student can see its group</li>
-		<li>A student has a schedule of courses and final tests but cannot change it</li>
-		<li>A student can see its payment information but cannot change it</li>
+		<li>A student has a list of his courses but cannot change it</li>
+		<li>A student can access his profile</li>
 	</ul>
 	<br>
 	<h3>Teacher</h3> 
 	<ul>
-		<li>A <b>Teacher</b> has:
-			<ol>
-				<li>teacher id</li> 
-				<li>first name</li> 
-				<li>last name</li> 
-				<li>date of birth</li> 
-				<li>salary amount</li> 
-				<li>currency name</li>
-				<li>employment date</li> 
-				<li>position</li> 
-				<li>passport number</li> 
-				<li>telephone number</li> 
-				<li>email address</li> 
-				<li>residence address</li> 
-				<li>working shift</li> 
-				<li>scientific degree</li>
-				<li>person foto</il> 
-			</ol>
-		</li>
 		<li>A teacher teaches one or more courses </li>
 		<li>A teacher can see its schedule</li>
 		<li>A teacher can access its profile</li>
+		<li>A teacher cannot change information about a group or a course</li>
 	</ul>
 	<br>
 	<h3>Administration</h3> 
 	<ul>
-		<li>An <b>Administration</b> has:
-			<ol>
-				<li>administrator id</li> 
-				<li>first name</li> 
-				<li>last name</li> 
-				<li>date of birth</li>
-				<li>employment date</li> 
-				<li>salary amount</li> 
-				<li>currency name</li>
-				<li>position</li> 
-				<li>telephone number</li> 
-				<li>email address</li> 
-				<li>residence address</li> 
-				<li>passport number</li> 
-				<li>working shift</li> 
-				<li>person foto</il> 
-			</ol>
-		</li>
-		<li>An administrator can assign a student to a course<br>
-			or a group or can move a student to another group or<br>
-			a course.</li>
+		<li>An administrator can assign a student to a course or a group or can move a student to another group or a course.</li>
 		<li>An administrator can create a post to publish it on home page</li>
 		<li>An administrator can see a schedule of all users and change it</li>
-		<li>During the creation /modification of the schedule, it should be taken into account<br>
-		 that the teacher has a working shift, it is impossible to assign lectures for the teacher<br>
-		 during non-working hours</li>
+		<li>During the creation/modification of the schedule, it should be taken into account that the teacher has a working shift, it is impossible to assign lectures for the teacher during non-working hours</li>
 		<li>The schedule is generated for one semester</li>
 		<li>An administrator can see all groups and courses and create new ones</li>
 	</ul>
