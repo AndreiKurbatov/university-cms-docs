@@ -37,8 +37,10 @@
 	</ul>
 	<br>
 	<h3>Student</h3> 
+	<h4>General information</h4> 
 	<ul>
-		<li>For a student to attend a course, it is not necessary for him to be in a group with relevant specialization</li>
+		<li>For a student to attend a course, it is not necessary for him to be in a group with relevant specialization.<br>
+		The student deletion from the group lead to his deletion from all courses</li>
 		<li>It is possible that there is a group without students or a student without group</li>
 		<li>There are 800 students in total at the university</li>
 		<li>A student has a group and courses with relevant specialization</li>
@@ -49,6 +51,24 @@
 		<li>A student has a list of his courses but cannot change it</li>
 		<li>A student can access his profile</li>
 	</ul>
+	<h4>TO DO<h4>
+		<ol>
+			<li>Create a student<li> <!---->
+			<li>Update a student<li> <!---->
+			<li>Find a studen by id<li> <!---->
+			<li>Find a student by the passport id<li> <!---->
+			<li>Find all students<li> <!---->
+			<li>find all students related to a group by group's name<li> <!---->
+			<li>Find all students related to a course by course's name<li> <!---->
+			<li>Find all students related to a teacher by teacher's name<li> <!---->
+			<li>Find all students by student's specialization<li> <!---->
+			<li>Find a student by name<li> <!---->
+			<li>Delete a student from a group by group's id<li>
+			<li>Delete a student from a course by course's id<li>
+			<li>Delete a student by id<li>
+			<li>Assign a student to a group by group's name<li>
+			<li>Assign a student to a course by course's name<li>
+		</ol>
 	<br>
 	<h3>Teacher</h3> 
 	<ul>
