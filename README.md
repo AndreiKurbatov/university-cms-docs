@@ -37,7 +37,6 @@
 	</ul>
 	<br>
 	<h3>Student</h3> 
-	<h4>General information</h4> 
 	<ul>
 		<li>For a student to attend a course, it is not necessary for him to be in a group with relevant specialization.<br>
 		The student deletion from the group lead to his deletion from all courses</li>
