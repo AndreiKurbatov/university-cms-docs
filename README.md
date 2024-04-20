@@ -2,6 +2,12 @@
 <html>
 
 <body> 
+	<h2>Credentials</h2>
+	<ul>
+		<li>Administrator: login admin,  password 1234</li>
+		<li>Student: login userM17, password 1234</li>
+		<li>Teacher: login teacherM17, password 1234
+	</ul>
 	<h2>Entity description</h2>
 	<h3>Lesson</h3>
 	<ul>
